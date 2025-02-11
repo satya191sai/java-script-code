@@ -1,0 +1,12 @@
+var price=300;
+var product_name="men ragular fit";
+var brand="dimmy";
+var rating=4.1;
+var avail=true;
+var seller_details="";
+console.log(typeof price);
+console.log(typeof brand);
+console.log(typeof product_name);
+console.log(typeof avail);
+console.log(typeof rating);
+console.log(typeof seller_details);
