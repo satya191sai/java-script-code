@@ -14,9 +14,9 @@ console.log(arraystring.entries());
 arraystring.reverse()
 console.log(arraystring);
 console.log(arraystring.indexOf(20));
- console.log(arraystring.at(0));
- console.log(arraystring.find(20));
- 
+console.log(arraystring.at(0));
+console.log(arraystring.lastIndexOf(40));
+  
   
 
  
