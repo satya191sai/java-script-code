@@ -19,7 +19,7 @@ t=add(1,2,3)
 console.log(t);*/
 
 
- function cal_age(year){   
+/* function cal_age(year){   
  let current=new Date().getFullYear();
  let current1=new Date().getMonth();
  let current2=new Date().getDate();
@@ -32,7 +32,17 @@ return current-year
  }
  let age=cal_age(1997);
  console.log(age);
+*/
+function login(name, status){
+  if (status===true){
 
- 
-
+    return "login success"
+  }else{
+          return "login failed"
+  }
+}
+let t1=login("harish",true)
+let t2=login("harish",false)
+console.log(t1);
+console.log(t2);
 
