@@ -5,7 +5,7 @@ let employees=[
 let createEmployee=(emp,Callback)=>{
     setTimeout(()=>{
         Callback()
-        employees.push(emp)
+        employees .push(emp)
         
     },1000)
 }
@@ -23,3 +23,8 @@ let getEmployees=()=>{
     },4000)
 }
 createEmployee({eid:103,ename:"Priyanka",esal:65000},getEmployees)
+// setTimeout(() => {
+//     console.log("satya");
+    
+    
+// }, 2000);
